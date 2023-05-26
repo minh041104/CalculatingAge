@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 # Hàm để kiểm tra tuổi hợp lệ
 def kiem_tra_tuoi(tuoi):
-    if tuoi <= 0:
+    if tuoi <= 10 or tuoi>=100:
         return False
     return True
 
